@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="smartshop-microservices" />
+        <module name="eureka-server (2)" />
+        <module name="api-gateway (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.5" />
+      <module name="api-gateway (1)" target="1.5" />
+      <module name="eureka-server" target="1.5" />
+      <module name="eureka-server (1)" target="1.5" />
+      <module name="smartshop-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
