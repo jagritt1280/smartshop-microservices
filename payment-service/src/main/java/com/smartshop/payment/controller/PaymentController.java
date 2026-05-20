@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/payments")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @Tag(name = "Payments",
         description = "Payment processing with idempotency")
 public class PaymentController {

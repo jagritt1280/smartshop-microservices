@@ -7,6 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class AuthResponse {
+    private Long id;        // ADD THIS ✅
     private String token;
     private String name;
     private String email;
